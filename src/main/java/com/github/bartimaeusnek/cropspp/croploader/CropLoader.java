@@ -4,7 +4,6 @@ import com.github.bartimaeusnek.croploadcore.ModsLoaded;
 import com.github.bartimaeusnek.croploadcore.OreDict;
 import com.github.bartimaeusnek.croploadcore.config;
 import com.github.bartimaeusnek.cropspp.ConfigValues;
-import com.github.bartimaeusnek.cropspp.Cropspp;
 import com.github.bartimaeusnek.cropspp.crops.cpp.*;
 import com.github.bartimaeusnek.cropspp.crops.natura.*;
 import com.github.bartimaeusnek.cropspp.crops.witchery.GarlicCrop;
@@ -15,10 +14,10 @@ import ic2.api.crops.Crops;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
-import static com.github.bartimaeusnek.cropspp.ConfigValues.c;
-
 import java.util.ArrayList;
 import java.util.List;
+
+import static com.github.bartimaeusnek.cropspp.ConfigValues.c;
 
 //IC2API
 //ItemsFromAPIs

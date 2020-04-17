@@ -1,6 +1,5 @@
 package com.github.bartimaeusnek.cropspp.crops.cpp;
 
-import com.github.bartimaeusnek.croploadcore.OreDict;
 import com.github.bartimaeusnek.cropspp.ConfigValues;
 import com.github.bartimaeusnek.cropspp.abstracts.BasicCrop;
 import cpw.mods.fml.common.Loader;
@@ -44,7 +43,7 @@ public enum Bonsais {
 
 
     Bonsais(String name, int tier, String[] attributes, String discoveredBy, ItemStack seed,ItemStack[] gain,int[] chances,String[] pathToSprites, String modID, String... additionalDescriton) {
-        bonsais = new InternalVanillaBonsais(name, tier, attributes, discoveredBy, gain,chances,pathToSprites, additionalDescriton);
+        bonsais = new InternalVanillaBonsais(name, tier, attributes, discoveredBy, gain, chances, pathToSprites, additionalDescriton);
         this.seed = seed;
         load = modID == null || Loader.isModLoaded(modID);
     }
@@ -60,7 +59,7 @@ public enum Bonsais {
         }
     }
 
-    class InternalVanillaBonsais extends BasicCrop {
+    static class InternalVanillaBonsais extends BasicCrop {
 
         String name;
         int tier;

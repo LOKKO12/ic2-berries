@@ -1,14 +1,12 @@
 package com.github.bartimaeusnek.cropspp.crops.BoP;
 
 import biomesoplenty.api.content.BOPCBlocks;
-import com.github.bartimaeusnek.croploadcore.OreDict;
 import com.github.bartimaeusnek.cropspp.abstracts.BasicDecorationCrop;
 import ic2.api.crops.ICropTile;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.ItemStack;
 
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 
 public class GlowingCoralCrop extends BasicDecorationCrop {
